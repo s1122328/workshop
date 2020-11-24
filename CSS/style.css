@@ -4,12 +4,13 @@
 }
 
 body{
-  display: inline-block;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   font-size: 100px;
   font-family: sans-serif;
+  flex-direction: column;
 }
 
 h1{
@@ -18,4 +19,9 @@ h1{
 
 h1:hover{
   transform: rotate(45deg);
+}
+
+p{
+  font-size: 16px;
+  max-width: 50ch;
 }

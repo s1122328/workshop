@@ -25,3 +25,15 @@ p{
   font-size: 16px;
   max-width: 50ch;
 }
+
+button{
+  padding: 2rem 4rem;
+  color: white;
+  border: none;
+  font-size: 24px;
+  background-color: red;
+}
+
+button:hover{
+  cursor: pointer;
+}

@@ -1,9 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,20 +13,20 @@ body{
   flex-direction: column;
 }
 
-h1{
+h1 {
   transition: 0.5s;
 }
 
-h1:hover{
-  transform: rotate(45deg);
+h1:hover {
+  transform: rotate(0.1turn);
 }
 
-p{
+p {
   font-size: 16px;
   max-width: 50ch;
 }
 
-button{
+button {
   padding: 2rem 4rem;
   color: white;
   border: none;
@@ -34,10 +34,13 @@ button{
   background-color: red;
 }
 
-button:nth-of-type(2){
+button:nth-of-type(2) {
   background-color: yellow;
 }
+  button.green {
+    background-color: green;
+  }
 
-button:hover{
-  cursor: pointer;
-}
+  button:hover {
+    cursor: pointer;
+  }
